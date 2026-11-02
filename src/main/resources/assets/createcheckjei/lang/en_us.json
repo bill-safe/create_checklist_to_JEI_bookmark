@@ -1,0 +1,13 @@
+{
+  "key.createcheckjei.open": "Open Create Checklist Bookmark Helper",
+  "key.categories.createcheckjei": "Create / JEI",
+  "screen.createcheckjei.title": "Create Checklist → JEI Bookmarks",
+  "screen.createcheckjei.select_all": "Select missing",
+  "screen.createcheckjei.add": "Add to JEI",
+  "screen.createcheckjei.ignore": "Ignore / Close",
+  "screen.createcheckjei.not_found": "No printed material checklist found in inventory",
+  "screen.createcheckjei.jei_unavailable": "JEI bookmarks not ready",
+  "message.createcheckjei.added": "Added %s JEI bookmarks (%s selected; duplicates skipped)",
+  "tooltip.createcheckjei.missing": "Checklist missing: x%s",
+  "screen.createcheckjei.legacy_unavailable": "This JEI version does not expose a safe bookmark write path"
+}

@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Community Example"
+description='''
+Read printed Create Schematicannon Material Checklists directly from the player's inventory,
+preview remaining counts, and optionally import selected items to native JEI bookmarks.
+Client-side only.
+'''
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.1.0)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="jei"
+type="required"
+versionRange="[19.38.0.366,19.39.0)"
+ordering="AFTER"
+side="CLIENT"

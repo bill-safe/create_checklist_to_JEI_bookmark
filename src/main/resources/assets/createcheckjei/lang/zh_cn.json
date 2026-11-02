@@ -1,0 +1,13 @@
+{
+  "key.createcheckjei.open": "打开机械动力材料书签助手",
+  "key.categories.createcheckjei": "机械动力 / JEI",
+  "screen.createcheckjei.title": "机械动力材料清单 → JEI 书签",
+  "screen.createcheckjei.select_all": "全选缺少项",
+  "screen.createcheckjei.add": "确认添加至 JEI",
+  "screen.createcheckjei.ignore": "忽略 / 关闭",
+  "screen.createcheckjei.not_found": "背包里没有找到已经打印的材料清单",
+  "screen.createcheckjei.jei_unavailable": "JEI 书签功能尚未准备好",
+  "message.createcheckjei.added": "JEI 已新增 %s 个书签（本次选中 %s 项，重复项目自动跳过）",
+  "tooltip.createcheckjei.missing": "材料清单尚缺：x%s",
+  "screen.createcheckjei.legacy_unavailable": "当前 JEI 版本无法安全地批量写入原生书签"
+}
